@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoStringFuncoes", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoStringBuilder", "EstudandoStringBuilder\EstudandoStringBuilder.csproj", "{9BC0EB45-4647-4DF2-B427-0C29263FF32E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoTiposAnonimos", "EstudandoTiposAnonimos\EstudandoTiposAnonimos.csproj", "{15F51AD3-4555-4538-9E55-24249495AE5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9BC0EB45-4647-4DF2-B427-0C29263FF32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BC0EB45-4647-4DF2-B427-0C29263FF32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BC0EB45-4647-4DF2-B427-0C29263FF32E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F51AD3-4555-4538-9E55-24249495AE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F51AD3-4555-4538-9E55-24249495AE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F51AD3-4555-4538-9E55-24249495AE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F51AD3-4555-4538-9E55-24249495AE5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
