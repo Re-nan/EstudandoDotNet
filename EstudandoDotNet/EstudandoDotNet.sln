@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoDecimal", "Estudan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoConstrutor", "EstudandoConstrutor\EstudandoConstrutor.csproj", "{598B201B-2FEE-467F-885E-E313CD67BB58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoMath", "EstudandoMath\EstudandoMath.csproj", "{308D7F49-2A9C-4611-AF4A-F025B93AB119}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{598B201B-2FEE-467F-885E-E313CD67BB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{598B201B-2FEE-467F-885E-E313CD67BB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{598B201B-2FEE-467F-885E-E313CD67BB58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308D7F49-2A9C-4611-AF4A-F025B93AB119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308D7F49-2A9C-4611-AF4A-F025B93AB119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308D7F49-2A9C-4611-AF4A-F025B93AB119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308D7F49-2A9C-4611-AF4A-F025B93AB119}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
