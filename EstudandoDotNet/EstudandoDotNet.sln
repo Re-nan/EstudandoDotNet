@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoEnum", "EstudandoE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoDouble", "EstudandoDouble\EstudandoDouble.csproj", "{E6836B8B-8E41-4CDB-B705-41AD79E34A00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoDecimal", "EstudandoDecimal\EstudandoDecimal.csproj", "{64D1FF3B-5060-4691-9835-F5E1ADD0F490}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{E6836B8B-8E41-4CDB-B705-41AD79E34A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6836B8B-8E41-4CDB-B705-41AD79E34A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6836B8B-8E41-4CDB-B705-41AD79E34A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D1FF3B-5060-4691-9835-F5E1ADD0F490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D1FF3B-5060-4691-9835-F5E1ADD0F490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D1FF3B-5060-4691-9835-F5E1ADD0F490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D1FF3B-5060-4691-9835-F5E1ADD0F490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
