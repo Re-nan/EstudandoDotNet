@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoConstrutor", "Estu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoMath", "EstudandoMath\EstudandoMath.csproj", "{308D7F49-2A9C-4611-AF4A-F025B93AB119}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoChar", "EstudandoChar\EstudandoChar.csproj", "{1344D174-9675-4484-BC7D-1ADF0254D510}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{308D7F49-2A9C-4611-AF4A-F025B93AB119}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{308D7F49-2A9C-4611-AF4A-F025B93AB119}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{308D7F49-2A9C-4611-AF4A-F025B93AB119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1344D174-9675-4484-BC7D-1ADF0254D510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1344D174-9675-4484-BC7D-1ADF0254D510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1344D174-9675-4484-BC7D-1ADF0254D510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1344D174-9675-4484-BC7D-1ADF0254D510}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
