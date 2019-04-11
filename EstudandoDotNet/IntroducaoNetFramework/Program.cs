@@ -67,6 +67,38 @@ namespace IntroducaoNetFramework
              * 
              */
 
+
+
+            /* Entendo a árvore de diretórios do .Net Framework
+             * 
+             * - Dentro do diretório do projeto eu tenho:
+             * .vs = é um diretório com arquivos temporários do VS
+             * 
+             * NomeDaSolution.sln = essa é a extensão usada pelo VS
+             * para representar uma Solução/Solution
+             * 
+             * Outro diretório com o nome do projeto, esse é o diretório onde
+             * é armazenado os arquivos daquele projeto
+             * 
+             * E dentro dele temos alguns arquivos como:
+             * 
+             * NomeDoProjeto.csproj = é um xml defindo lingação com outros arquivos
+             * e diretório, ele define quem compõe o nosso projeto como o arquivo
+             * 
+             * Program.cs = arquivo de código
+             * 
+             * 
+             * App.config = arquivo de configurações daquele projeto
+             * 
+             * Diretório Properties 
+             * assemblyInfo.cd = informações do projeto como versões do projeto e etc
+             * 
+             * Diretório obj = guarda arquivos temporários utilizados em processos de
+             * compilação, quando do ctrl + espaço retornando o intellisense no VS 
+             * 
+             * Diretório bin = Guarda o executável do programa
+             */
+
         }
     }
 }
