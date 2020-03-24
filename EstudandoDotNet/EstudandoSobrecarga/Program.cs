@@ -28,9 +28,6 @@ namespace EstudandoSobrecarga
             Console.WriteLine(result);
 
 
-
-
-
             Console.ReadKey();
 
         }
