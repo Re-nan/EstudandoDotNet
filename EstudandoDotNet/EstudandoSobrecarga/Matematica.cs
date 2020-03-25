@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 /* SOBRECARGA DE MÉTODOS
  * É quando você tem métodos com o mesmo nome, mas com parametros diferentes, podendo ter a mesma
- * quantidade de parametros, desde que os tipos sejam diferentes e manteham o memso tipo de retorno
+ * quantidade de parametros, desde que os tipos sejam diferentes e manteham o mesmo tipo de retorno
  * 
  * A CLR do .net se da o trabalho de encaixar a versão do método que melhor atendar os parâmetros
  * 
- * ATENÇÃO
+ * ATENÇÃO!
  * Se você tiver 2 métodos com o mesmo nome e mesma quantidade e tipos de de parametros
  * mas o retorno diferente, a CLR dará erro, pois o 
  * 
  * A CLR do .net se da o trabalho de encaixar a versão do método que melhor atendar os parâmetros
  */
+
 namespace EstudandoSobrecarga
 {
     class Matematica
