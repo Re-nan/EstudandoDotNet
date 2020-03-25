@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 /* SOBRECARGA DE MÉTODOS
  * É quando você tem métodos com o mesmo nome, mas com parametros diferentes, podendo ter a mesma
- * quantidade de parametros, desde que os tipos sejam diferentes
+ * quantidade de parametros, desde que os tipos sejam diferentes e manteham o memso tipo de retorno
  * 
  * A CLR do .net se da o trabalho de encaixar a versão do método que melhor atendar os parâmetros
  * 
