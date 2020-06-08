@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoPassagemParametro3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoStruct", "EstudandoStruct\EstudandoStruct.csproj", "{33E18F80-4027-4093-8E1F-0A6F85E44BBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.DatasHoras", "Estudando.DatasHoras\Estudando.DatasHoras.csproj", "{B116B6E9-BB05-4D53-A28C-15C2136E4442}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{33E18F80-4027-4093-8E1F-0A6F85E44BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33E18F80-4027-4093-8E1F-0A6F85E44BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33E18F80-4027-4093-8E1F-0A6F85E44BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B116B6E9-BB05-4D53-A28C-15C2136E4442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B116B6E9-BB05-4D53-A28C-15C2136E4442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B116B6E9-BB05-4D53-A28C-15C2136E4442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B116B6E9-BB05-4D53-A28C-15C2136E4442}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
