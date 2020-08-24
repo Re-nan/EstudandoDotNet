@@ -18,11 +18,11 @@ namespace IntroducaoNetFramework
              * MSIL = é uma linguagem universal, e quem interpreta essa linguagem universal
              * é a Máquina Virtual chamada CLR(Common Language Runtime)
              * 
-             * CLR = é uma Máquina virtual que está instalada no SO, cada SO tem sua uma 
+             * CLR = é uma Máquina virtual que está instalada no SO, cada SO tem sua/uma 
              * implementação da máquina virtual, no nosso caso, existe uma máquina virtual 
              * .net para o Windows.
              * 
-             * ----- Entendo com mais detalhes -----
+             * ----- Entendendo com mais detalhes -----
              * 
              * Você escreve seu código em C#
              * Console.WriteLine("Olá Mundo!");
@@ -63,13 +63,13 @@ namespace IntroducaoNetFramework
              * C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe MeuPrograma.txt
              * 
              * O C# irá gerar na mesma pasta do MeuPrograma.txt um arquivo MeuPrograma.exe que ao
-             * exercutarmos rodará nosso programa para a plataforma .Net Framework em ambiente Windows
+             * executarmos rodará nosso programa para a plataforma .Net Framework em ambiente Windows
              * 
              */
 
 
 
-            /* Entendo a árvore de diretórios do .Net Framework
+            /* Entendendo a árvore de diretórios do .Net Framework
              * 
              * - Dentro do diretório do projeto eu tenho:
              * .vs = é um diretório com arquivos temporários do VS
@@ -82,8 +82,8 @@ namespace IntroducaoNetFramework
              * 
              * E dentro dele temos alguns arquivos como:
              * 
-             * NomeDoProjeto.csproj = é um xml defindo lingação com outros arquivos
-             * e diretório, ele define quem compõe o nosso projeto como o arquivo
+             * NomeDoProjeto.csproj = é um xml definindo a ligação com outros arquivos
+             * e diretórios, ele define quem compõe o nosso projeto como o arquivo
              * 
              * Program.cs = arquivo de código
              * 
