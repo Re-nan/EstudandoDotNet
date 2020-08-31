@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-/* Nullable Type (Tipos nulos/anulados) (?)
+/* Nullable Types (Tipos nulos/anulados) (?)
  * É uma técnica para permitir que ValueTypes(int, double, long, float...) possa receber 
  * o valor null, com Nullable Types você consegue fazer isso, foram criados para serem 
  * utilizados somente com ValueTypes
@@ -14,9 +14,10 @@ using System.Threading.Tasks;
 /* Null-coalescing operator (??)
  * Permite atribuir um valor padrão para uma variável se o valor 
  * dela for null 
+ * Pode ser utilizado com value types e reference types
  */
 
-namespace EstudandoNullableTypes
+namespace Estudando.NullableTypes
 {
     class Program
     {
@@ -48,7 +49,6 @@ namespace EstudandoNullableTypes
             {
                 Console.WriteLine("2 - O valor de n é: " + n);
             }
-
    
 
             bool? b1 = true;
