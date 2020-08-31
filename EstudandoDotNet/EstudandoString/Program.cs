@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EstudandoString
+namespace Estudando.TipoString
 {
     class Program
     {
@@ -17,7 +17,7 @@ namespace EstudandoString
              * não pode ser modificado(alterado, excluido). A cada atribuição em uma var string ela troca o endereço
              * de memoria por outro e o endereço de antes fica pro garbage collector limpar
              */
-
+            
             /* Já o tipo CLASSE StringBuilder faz parte do System.Text.StringBuilder
              * permite criar objs strings e dai sim, permite adcionar e alterar valores no mesmo endereço
              * de memoria.
@@ -46,7 +46,8 @@ namespace EstudandoString
             string nome = "Renan";
             Console.WriteLine("O tamenho de caracteres em renan é: " + nome.Length); //5
 
-            
+            // Através da classe GC eu posso executar o Garbage Collector com o método Collect
+            GC.Collect();
             Console.ReadKey();
         }
     }
