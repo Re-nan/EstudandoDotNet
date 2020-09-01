@@ -6,14 +6,26 @@ using System.Threading.Tasks;
 
 /* Struct
  * São estruturas usadas para agrupar dados, bastante similar a uma Class
- * Podem conter fields e métodos, e também preciso serem instanciadas para
+ * Podem conter fields/propriedades e métodos, e também precisam serem instanciadas para
  * serem utilizadas
  * 
  * Structs são ValueTypes e Classes ReferenceTypes
- * 
+ * o fato de struct serem value types impacta na passagem de parâmetros, pois quando usa-se
+ * structs como parâmetros, você está passando uma copia desse valor para o parâmetro, já
+ * para classes(reference types) como parâmetros você fica a merce do Garbage Collector
+ * liberar a memória enquanto structs são liberadas mais rápido pois são armazenadas stack
  */
 
-namespace EstudandoStruct
+/* Diferenças entre Class e Struct
+ * Class são reference type enquanto struct são value type
+ * Class são armazenadas no Heap enquanto struct na stack
+ * Class pode ter um construtor sem parâmetros enquanto struct sempre tem um construtor com parâmetros
+ * Class suporta herança, enquanto struct não suporta
+ */
+
+
+
+namespace Estudando.Struct
 {
     class Program
     {
@@ -37,7 +49,6 @@ namespace EstudandoStruct
 
     struct Teste
     {
-
         public string nome;
         public int numero;
 
@@ -46,5 +57,6 @@ namespace EstudandoStruct
             this.nome = nome;
             this.numero = numero;
         }
+
     }
 }
