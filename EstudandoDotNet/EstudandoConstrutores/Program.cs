@@ -25,8 +25,16 @@ using System.Threading.Tasks;
  * - Assim como método podem conter sobrecarga de construtores
  * 
  * Uma classe sempre deve te rum construtor definido na classe
- * se não não criar esse construtor o compilador cria o construtor
+ * se você não criar esse construtor o compilador cria o construtor
  * padrão de forma implícita
+ * 
+ * Porém se você cria um construtor com parâmetros, o contrutor padrão que antes
+ * criado sozinho pelo compilador deixa de existir. Sendo assim sendo necessário
+ * criar o construtor padrão caso queira que suas propriedades sejam inicializadas
+ * com valores valores padrão
+ * 
+ * Ps: em Structs o compilador sempre define um construtor padrão, independente de
+ * existirem outros ou não, ele não pode ser redefinido, já vem por padrão em uma struct
  */
  
 namespace EstudandoConstrutores

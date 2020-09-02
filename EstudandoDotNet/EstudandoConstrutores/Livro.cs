@@ -19,17 +19,22 @@ namespace EstudandoConstrutores
          */
 
         //Costrutor Padrão
-        public Livro() { }
+        public Livro() 
+        {
+            Console.WriteLine("Chamando... Construtor Padrão/Vazio");
+        }
 
         //Sobrecarga de Construtor
         public Livro(string titulo) 
         {
+            Console.WriteLine("Chamando... Construtor1");
             numPaginas = 100;
         }
 
         //Construtor Sobrecarregado
         public Livro(string titulo, string autor) : this(titulo)
         {
+            Console.WriteLine("Chamando... Construtor2");
             this.titulo = titulo;
             this.autor = autor;
         }
