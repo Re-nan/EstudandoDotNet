@@ -2,8 +2,8 @@
 
 Solução composta por diversos projetos Console Aplication que abordam alguns dos elementos que compõe o .net framework, utilizando a linguagem C#. O intuíto é o de que possa ajudar os que estão dando início aos estudos.
 
-<img src="http://i.imgur.com/TDn4Eug.gif" height="200">
+<img src="https://media.giphy.com/media/xTiTnrSUiMcPD9QXSM/giphy.gif" height="200">
 
 **.NET Framework:** 4.5.2
 
-**IDE:** Visual Studio 2017
+**IDE:** Visual Studio 2019
