@@ -14,6 +14,9 @@ using System.Threading.Tasks;
  * structs como parâmetros, você está passando uma copia desse valor para o parâmetro, já
  * para classes(reference types) como parâmetros você fica a merce do Garbage Collector
  * liberar a memória enquanto structs são liberadas mais rápido pois são armazenadas stack
+ * 
+ * Sempre que você trabalha com structs, toda struct possu um construtor padrão que já vem
+ * declarado implicitamente e não pode ser redefinido
  */
 
 /* Diferenças entre Class e Struct
@@ -22,8 +25,6 @@ using System.Threading.Tasks;
  * Class pode ter um construtor sem parâmetros enquanto struct sempre tem um construtor com parâmetros
  * Class suporta herança, enquanto struct não suporta
  */
-
-
 
 namespace Estudando.Struct
 {
@@ -58,5 +59,12 @@ namespace Estudando.Struct
             this.numero = numero;
         }
 
+        // Erro porque Struct não pode terem seus contrutores padrães redefinidos
+        /*
+            public Teste()
+            {
+
+            }
+        */
     }
 }
