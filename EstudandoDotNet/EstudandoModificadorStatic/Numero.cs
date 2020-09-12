@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 /* Modificador STATIC
  * Pode ser utilizado em diversos locais como Fields, Métodos, Construtores e Classes
  * 
- * Tudo qu eé static não pode ser acessado através de instancia da Classe
+ * Tudo que é static não pode ser acessado através de instancia da Classe
  * mas sim acessado diretamento do NomeClasse.NomeFieldStatic
  */
 
-namespace EstudandoModificadorStatic
+namespace Estudando.Modificador.Static
 {
     class Numero
     {
@@ -20,7 +20,7 @@ namespace EstudandoModificadorStatic
          * 
          * Um field static tem seu valor compartilhado entre todas os objs da Classe
          * 
-         * Métodos de instancia podem interagir elementos estáticos, mas métodos
+         * Métodos de instancia podem interagir com elementos estáticos, mas métodos
          * estáticos só podem interagir com elementos estáticos
          */
 
