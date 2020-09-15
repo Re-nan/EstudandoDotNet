@@ -13,7 +13,7 @@ using System.Threading.Tasks;
  * protected = Visível a classe que declarou e suas subclasses que a herdaram
  * 
  * internal = Visível apenas dentro do próprio assembly, ou seja visível naquele
- * namespace em que foi declarado, todas as classes que compartilham do mesmo namespace
+ * namespace em que foi declarado, e todas as classes que compartilham do mesmo namespace
  *
  * internal protected = Visível a classe que declarou, subclasses que herdaram e dentro
  * do próprio assembly/namespace
@@ -23,7 +23,7 @@ using System.Threading.Tasks;
  * Por padrão toda classe é internal e todo field e método é private
  */ 
 
-namespace EstudandoModificadorViisibilidade
+namespace Estudando.Modificador.Visibilidade
 {
     class Program
     {
