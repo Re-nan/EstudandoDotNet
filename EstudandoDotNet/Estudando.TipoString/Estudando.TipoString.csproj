@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B3834E2E-D26A-46A7-992C-41AA110683BD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EstudandoString</RootNamespace>
-    <AssemblyName>EstudandoString</AssemblyName>
+    <RootNamespace>Estudando.TipoString</RootNamespace>
+    <AssemblyName>Estudando.TipoString</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
