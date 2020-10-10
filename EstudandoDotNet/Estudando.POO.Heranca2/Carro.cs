@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Estudando.Heranca2
+namespace Estudando.POO.Heranca2
 {
     class Carro : IMotorizado
     {

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B94EA24A-7415-414E-B3EF-3D7A22D00305}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Estudando.Heranca2</RootNamespace>
-    <AssemblyName>Estudando.Heranca2</AssemblyName>
+    <RootNamespace>Estudando.POO.Heranca2</RootNamespace>
+    <AssemblyName>Estudando.POO.Heranca2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
