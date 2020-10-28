@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{64D1FF3B-5060-4691-9835-F5E1ADD0F490}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EstudandoDecimal</RootNamespace>
-    <AssemblyName>EstudandoDecimal</AssemblyName>
+    <RootNamespace>Estudando.TipoDecimal</RootNamespace>
+    <AssemblyName>Estudando.TipoDecimal</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
