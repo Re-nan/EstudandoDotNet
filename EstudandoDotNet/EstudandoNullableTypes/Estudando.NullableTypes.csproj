@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F733DB6A-D427-4B5D-967D-47ECD0063B53}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EstudandoNullableTypes</RootNamespace>
-    <AssemblyName>EstudandoNullableTypes</AssemblyName>
+    <RootNamespace>Estudando.NullableTypes</RootNamespace>
+    <AssemblyName>Estudando.NullableTypes</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

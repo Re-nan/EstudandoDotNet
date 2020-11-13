@@ -44,7 +44,7 @@ namespace EstudandoPassagemParametro2
              * x aponta para um novo endereço de memória, e num continua apontando para o mesmo de antes
              * 
              * porém se eu forçar esse método receber passagem pro referência com o prefixo "ref" antes do
-             * parametro, então eu vou exibir 50 poi aí de fato éstaria sendo feito a cópia do endereço
+             * parametro, então eu vou exibir 50 poi aí de fato estaria sendo feito a cópia do endereço
              * de memória heap do obj Numero
              */
             //x = new Numero(); 
