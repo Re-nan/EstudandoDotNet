@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{777C9BA9-7B28-472E-9060-B7F289C7251D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EstudandoTypeCode</RootNamespace>
-    <AssemblyName>EstudandoTypeCode</AssemblyName>
+    <RootNamespace>Estudando.TypeCode</RootNamespace>
+    <AssemblyName>Estudando.TypeCode</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
