@@ -11,13 +11,13 @@ using System.Threading.Tasks;
  * precisa inicializar a variável, porque essa variável tem seu valor definido pelo método 
  * que o está chamando
  * 
- * Pode se mais de um parametro de saída por método, geralmente usasse métodos com parametros 
- * de saída quando você tem que retornar mais de um valor tem em mente que um método só pode
+ * Pode ser mais de um parametro de saída por método, geralmente usasse métodos com parametros 
+ * de saída quando você tem que retornar mais de um valor, tem em mente que um método só pode
  * retornar um valor
  * 
  * 
  * PS: O C# passa parametros de saída como referência de forma automática, pois do contrário
- * ele não funcionari ada forma que deveria
+ * ele não funcionaria da forma que deveria
  */
 
 /* Parâmetros OPCIONAIS
