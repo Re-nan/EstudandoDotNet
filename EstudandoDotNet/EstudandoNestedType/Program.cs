@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 /* Nested Type (ou inner type)
  * É um tipo definido dentro de uma class ou struct
  * Por padrão todo nested type é privado, mas pode ser alterado
- * sendo assim só poderia ser vistro dentro da class de fora em que ele
+ * sendo assim só poderia ser visto dentro da class de fora em que ele
  * foi criado
- * 
- * 
  */ 
 namespace EstudandoNestedType
 {
