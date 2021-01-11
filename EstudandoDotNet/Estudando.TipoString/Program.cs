@@ -48,6 +48,50 @@ namespace Estudando.TipoString
 
             // Através da classe GC eu posso executar o Garbage Collector com o método Collect
             GC.Collect();
+
+            Console.WriteLine();
+
+            /* Caractres de escape em uma string
+             * 
+             * \n = quebra de linha
+             * \" aspas
+             * \t tab
+             * \\ barra invertida
+             */
+           
+            Console.WriteLine("Texto em \nduas linhas");
+            Console.WriteLine("Texto entre \"aspas\"");
+            Console.WriteLine("Nome:\tMaria");
+            Console.WriteLine("C:\\projetos\\CSharp");
+
+            Console.WriteLine();
+
+            /* Verbatin strings
+             * São prefeixadas com o caracter @
+             * Ao utilizar uma verbatin strings você não precisa utilizar caracteres de escape
+             */
+
+            Console.WriteLine(@"Texto 
+                        em 
+                3 linhas");
+
+            Console.WriteLine(@"Texto entre ""aspas""");
+            Console.WriteLine(@"C:\projetos\CSharp");
+
+            /* Alguns métodos(e uma propriedade) da classe String
+
+            Length Retorna o tamanho da string
+            Compare() Compara duas strings
+            Contains() Verifica se uma string está contida em outra
+            PadLeft() Preenche a string com caracteres desejados (à esquerda)
+            PadRight() Preenche a string com caracteres desejados (à direita)
+            Replace() Substitui caracteres em uma string
+            Trim() Removes os espaços em branco iniciais e finais da string
+            ToUpper() Converte todos os caracteres da string para maiúsculo
+            ToLower() Converte todos os caracteres da string para minúsculo
+             */
+
+
             Console.ReadKey();
         }
     }
