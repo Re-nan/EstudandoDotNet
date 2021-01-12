@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 /* Para trabalhos com datas e Horas utilizamos a struct DateTime que fica no namespace/pacote 
  * System.DateTime, ela é utilizada para representar uma Data e Hora específica
- * 
  */
 
 namespace Estudando.DatasHoras
@@ -72,7 +71,30 @@ namespace Estudando.DatasHoras
             s = DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss");
             Console.WriteLine(s);
 
+            Console.WriteLine();
+            
+            // Adicionando dias
+            Console.WriteLine(DateTime.Now.AddDays(1));
 
+            // Adicionando horas
+            Console.WriteLine(DateTime.Now.AddHours(1));
+            
+            // Adicionando anos
+            Console.WriteLine(DateTime.Now.AddYears(1));
+
+            // Subtraindo anos
+            Console.WriteLine(DateTime.Now.AddYears(-5));
+
+            Console.WriteLine();
+
+            /* TimeSpan
+             * - É utilizado para representar um intervalo de tempo
+             * - Representando 5 horas, 30 minutos e 0 segundos
+             * - Adicionado essa hora em uma data
+             */
+
+            TimeSpan tempo = new TimeSpan(5, 30, 0);
+            Console.WriteLine(new DateTime().Add(tempo));
 
             Console.ReadKey();
         }
