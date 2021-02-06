@@ -1,4 +1,4 @@
-﻿using Estudando.Heranca2;
+﻿using Estudando.POO.Heranca2;
 using System;
 using System.Collections.Generic;
 using System.Linq;
