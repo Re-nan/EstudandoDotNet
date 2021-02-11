@@ -41,7 +41,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoSobrecarga", "Estu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.NullableTypes", "EstudandoNullableTypes\Estudando.NullableTypes.csproj", "{F733DB6A-D427-4B5D-967D-47ECD0063B53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoPassagemParametro", "EstudandoPassagemParametro\EstudandoPassagemParametro.csproj", "{3A3302E4-A4F5-437F-A474-0307D04EB8D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.PassagemParametro", "Estudando.PassagemParametro\Estudando.PassagemParametro.csproj", "{3A3302E4-A4F5-437F-A474-0307D04EB8D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.DesignPattern.Singleton", "Estudando.DesignPattern.Singleton\Estudando.DesignPattern.Singleton.csproj", "{035BDBF5-8588-473B-8D7E-D0A5D5BA4C4A}"
 EndProject

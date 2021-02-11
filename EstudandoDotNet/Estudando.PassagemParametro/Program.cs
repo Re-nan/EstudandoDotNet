@@ -15,7 +15,7 @@ using System.Threading.Tasks;
  * e os ReferenceTypes na memória Heap
  */
 
-namespace EstudandoPassagemParametro
+namespace Estudando.PassagemParametro
 {
     class Program
     {
