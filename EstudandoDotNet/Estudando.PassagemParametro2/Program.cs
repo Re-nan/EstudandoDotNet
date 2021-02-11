@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EstudandoPassagemParametro2
+namespace Estudando.PassagemParametro2
 {
     class Program
     {

@@ -63,7 +63,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.Modificador.Visib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoNestedType", "EstudandoNestedType\EstudandoNestedType.csproj", "{89542EAF-3140-4916-8B2E-55510E3F1B9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoPassagemParametro2", "EstudandoPassagemParametro2\EstudandoPassagemParametro2.csproj", "{219BCBC3-E97A-4C9E-9DBA-19E02122EA3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.PassagemParametro2", "Estudando.PassagemParametro2\Estudando.PassagemParametro2.csproj", "{219BCBC3-E97A-4C9E-9DBA-19E02122EA3C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoPassagemParametro3", "EstudandoPassagemParametro3\EstudandoPassagemParametro3.csproj", "{30D613F2-0291-4F8D-89ED-998839082A61}"
 EndProject
