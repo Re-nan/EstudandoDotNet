@@ -24,7 +24,7 @@ using System.Threading.Tasks;
  * São parametros que podem ou não serem passados, se não forem passados, assumem um valor padrão
  */
 
-namespace EstudandoPassagemParametro3
+namespace Estudando.PassagemParametro3
 {
     class Program
     {

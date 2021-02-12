@@ -65,7 +65,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoNestedType", "Estu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.PassagemParametro2", "Estudando.PassagemParametro2\Estudando.PassagemParametro2.csproj", "{219BCBC3-E97A-4C9E-9DBA-19E02122EA3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoPassagemParametro3", "EstudandoPassagemParametro3\EstudandoPassagemParametro3.csproj", "{30D613F2-0291-4F8D-89ED-998839082A61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.PassagemParametro3", "Estudando.PassagemParametro3\Estudando.PassagemParametro3.csproj", "{30D613F2-0291-4F8D-89ED-998839082A61}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.Struct", "Estudando.Struct\Estudando.Struct.csproj", "{33E18F80-4027-4093-8E1F-0A6F85E44BBA}"
 EndProject
