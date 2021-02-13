@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.TipoByte", "Estud
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoGoToBreak", "EstudandoGoToBreak\EstudandoGoToBreak.csproj", "{45C85DE4-FE1F-4BDC-917D-2C036947645B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoEnum", "EstudandoEnum\EstudandoEnum.csproj", "{109F2E90-A39D-4337-8B44-FBC63C31EE16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.Enum", "Estudando.Enum\Estudando.Enum.csproj", "{109F2E90-A39D-4337-8B44-FBC63C31EE16}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.TipoDouble", "Estudando.TipoDouble\Estudando.TipoDouble.csproj", "{E6836B8B-8E41-4CDB-B705-41AD79E34A00}"
 EndProject

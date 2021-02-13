@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{109F2E90-A39D-4337-8B44-FBC63C31EE16}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EstudandoEnum</RootNamespace>
-    <AssemblyName>EstudandoEnum</AssemblyName>
+    <RootNamespace>Estudando.Enum</RootNamespace>
+    <AssemblyName>Estudando.Enum</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
