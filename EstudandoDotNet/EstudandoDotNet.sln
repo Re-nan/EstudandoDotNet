@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoMath", "EstudandoM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.TipoChar", "Estudando.TipoChar\Estudando.TipoChar.csproj", "{1344D174-9675-4484-BC7D-1ADF0254D510}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudandoGoTo", "Estudando.GoTo\EstudandoGoTo.csproj", "{DACE7CFF-2B4D-468E-A457-56DF6FD31774}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.GoTo", "Estudando.GoTo\Estudando.GoTo.csproj", "{DACE7CFF-2B4D-468E-A457-56DF6FD31774}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroducaoNetFramework", "IntroducaoNetFramework\IntroducaoNetFramework.csproj", "{D574090E-6EC3-464D-9525-E29588BE2E9B}"
 EndProject
@@ -116,6 +116,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.Assemblies", "Estudando.Assemblies\Estudando.Assemblies.csproj", "{E1E76B63-15D8-4E2F-8265-F2480686465A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.Delegates_Events", "Estudando.Delegates_Events\Estudando.Delegates_Events.csproj", "{DCDA9C03-844E-4476-8D41-D6437F05206F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.ExpressoesLambda2", "Estudando.ExpressoesLambda2\Estudando.ExpressoesLambda2.csproj", "{22C49F09-18AF-4032-BBC7-AA050440EF28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.ExpressoesLambda", "Estudando.ExpressoesLambda\Estudando.ExpressoesLambda.csproj", "{EB2FDE16-D07E-42B7-85BF-D4B021026860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.Delegates", "Estudando.Delegates\Estudando.Delegates.csproj", "{911EFC3B-07F9-4350-BE7E-49A45867E987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.FuncoesAnonimas", "Estudando.FuncoesAnonimas\Estudando.FuncoesAnonimas.csproj", "{6BE32AF1-E33B-45B0-B7FC-31F1A50D09F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -351,6 +359,22 @@ Global
 		{DCDA9C03-844E-4476-8D41-D6437F05206F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCDA9C03-844E-4476-8D41-D6437F05206F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCDA9C03-844E-4476-8D41-D6437F05206F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C49F09-18AF-4032-BBC7-AA050440EF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C49F09-18AF-4032-BBC7-AA050440EF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C49F09-18AF-4032-BBC7-AA050440EF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C49F09-18AF-4032-BBC7-AA050440EF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2FDE16-D07E-42B7-85BF-D4B021026860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2FDE16-D07E-42B7-85BF-D4B021026860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2FDE16-D07E-42B7-85BF-D4B021026860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2FDE16-D07E-42B7-85BF-D4B021026860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911EFC3B-07F9-4350-BE7E-49A45867E987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911EFC3B-07F9-4350-BE7E-49A45867E987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911EFC3B-07F9-4350-BE7E-49A45867E987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911EFC3B-07F9-4350-BE7E-49A45867E987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE32AF1-E33B-45B0-B7FC-31F1A50D09F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE32AF1-E33B-45B0-B7FC-31F1A50D09F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE32AF1-E33B-45B0-B7FC-31F1A50D09F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE32AF1-E33B-45B0-B7FC-31F1A50D09F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
