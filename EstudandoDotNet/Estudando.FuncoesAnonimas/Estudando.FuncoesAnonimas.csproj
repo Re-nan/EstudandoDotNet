@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCDA9C03-844E-4476-8D41-D6437F05206F}</ProjectGuid>
+    <ProjectGuid>{6BE32AF1-E33B-45B0-B7FC-31F1A50D09F6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Estudando.Delegates_Events</RootNamespace>
-    <AssemblyName>Estudando.Delegates_Events</AssemblyName>
+    <RootNamespace>Estudando.FuncoesAnonimas</RootNamespace>
+    <AssemblyName>Estudando.FuncoesAnonimas</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
