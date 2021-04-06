@@ -104,23 +104,23 @@ namespace Estudando.Linq
             frutas.LastOrDefault(f => f.Preco > 5);
             frutas.Count(f => f.Preco > 5);
 
-           /* First vs FirstOrDefault
-            * Quando você procura um elemento e esse elemento existe na listagem, ambas
-            * irão retornam o mesmo elemento e não possuem diferenças.
-            * amos supor que você queira a primeira fruta com o nome laranja:
-            */
+            /* First vs FirstOrDefault
+             * Quando você procura um elemento e esse elemento existe na listagem, ambas
+             * irão retornam o mesmo elemento e não possuem diferenças.
+             * amos supor que você queira a primeira fruta com o nome laranja:
+             */
 
             // frutas.FirstOrDefault(f => f.Nome == "Laranja");
             // ou
             // frutas.First(f => f.Nome == "Laranja");
 
-           /* Como a fruta laranja não existe em nossa listagem, o FirstOrDefault 
-            * irá retornar o valor padrão de um objeto vazio, que no caso de uma 
-            * classe é null. Já no caso do First, irá ocorrer uma exceção de 
-            * System.InvalidOperationException
-            * Portanto, tome cuidado ao utilizar o First, pois ele pode quebrar o 
-            * seu código e te causar transtornos.
-            */
+            /* Como a fruta laranja não existe em nossa listagem, o FirstOrDefault 
+             * irá retornar o valor padrão de um objeto vazio, que no caso de uma 
+             * classe é null. Já no caso do First, irá ocorrer uma exceção de 
+             * System.InvalidOperationException
+             * Portanto, tome cuidado ao utilizar o First, pois ele pode quebrar o 
+             * seu código e te causar transtornos.
+             */
 
             /* First vs Single
              * Single e First tem propósitos bem diferentes. O First, assim como vimos no
@@ -136,7 +136,25 @@ namespace Estudando.Linq
              * System.InvalidOperationException é disparada, enquanto o SigleOrDefault 
              * retornará o valor padrão de um objeto vazio.
              */
-            
+
+            // Retorna o MAIOR preço da lista
+            decimal maior = frutas.Max(x => x.Preco);
+            Console.WriteLine($"Maior preço: {maior}");
+
+            // Retorna o MENOR preço da lista
+            decimal menor = frutas.Min(x => x.Preco);
+            Console.WriteLine($"Menor preço: {menor}");
+
+            // Retorna a SOMA de todos os preço da lista
+            decimal soma = frutas.Sum(x => x.Preco);
+            Console.WriteLine("Soma dos preços: " + soma);
+
+            // Retorna a MÉDIA entre todos os preço da lista
+            decimal media = frutas.Average(x => x.Preco);
+            Console.WriteLine("A média dos preços é: " + media);
+
+
+
             Console.ReadKey();
         }
     }
