@@ -32,8 +32,6 @@ using System.Threading.Tasks;
  * - Depois de um tempo o escalonador, tira a thread de execução e volta ela pra fila onde ela tem seu status
  * alterado para aguardando, ele chama outra thread, executa, devolve, e depois chama outra e assim vai... 
  * conforme a necessidade
- * 
- 
  */
 
 namespace Estudando.Threads
