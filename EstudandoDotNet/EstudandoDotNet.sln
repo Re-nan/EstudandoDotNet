@@ -133,6 +133,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.Threads", "Estuda
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.Threads.ClasseTask", "Estudando.Threads.ClasseTask\Estudando.Threads.ClasseTask.csproj", "{DD40643B-50D3-4231-8796-5076379D7320}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.Threads.AsyncWait", "Estudando.Threads.AsyncWait\Estudando.Threads.AsyncWait.csproj", "{7E9F2C6D-AAD5-4956-AB4C-060F4BE675EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -399,6 +401,10 @@ Global
 		{DD40643B-50D3-4231-8796-5076379D7320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD40643B-50D3-4231-8796-5076379D7320}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD40643B-50D3-4231-8796-5076379D7320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9F2C6D-AAD5-4956-AB4C-060F4BE675EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9F2C6D-AAD5-4956-AB4C-060F4BE675EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9F2C6D-AAD5-4956-AB4C-060F4BE675EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9F2C6D-AAD5-4956-AB4C-060F4BE675EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
