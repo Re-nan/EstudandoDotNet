@@ -17,8 +17,8 @@ using System.Threading.Tasks;
  * - Cada processo tem uma área de memómoria definida só para ele e nenhum outro processo pode utilizar.
  * O SO gerencia isso. 
  * 
- * - Um processo pode ter mais de uma linha de execução simultânea. As thread do processo compartilham o
- * heap do processo. Cada aplicação só tem 1 heap, se sua suas thread criam um obj, elas são criadas no
+ * - Um processo pode ter mais de uma linha de execução simultânea. As threads do processo compartilham o
+ * heap do processo. Cada aplicação só tem 1 heap, se suas threads criam um obj, elas são criadas no
  * mesmo heap da aplicação. E uma thread pode ter acesso ao obj da outra mesmo que não tenha sido ela
  * quem o criou. Mitas aplicações são multithread, ex: editor de texto, enquanto você digita ele verifica
  * ortografia, salva o doc em segundo plano entre outras, ele faz coisas mesmo que você não esteja 
