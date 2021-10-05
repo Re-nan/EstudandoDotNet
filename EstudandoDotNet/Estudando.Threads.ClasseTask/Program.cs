@@ -27,7 +27,7 @@ using System.Threading.Tasks;
  * parte da programação paralela. Task também é a base para algumas construções da linguagem voltadas à programação 
  * assíncrona. O namespace dessas classes é o System.Threading.Tasks, a classe Task substitui os delegates assíncronos, 
  * trazendo algumas vantagens. Os delegates assíncronos já não são mais tão usados pois depois que surgiu a classe Task
- * você consegue fazer a mesma coisa só que d euma forma mais fácil, intuítiva e poderosa.
+ * você consegue fazer a mesma coisa só que de uma forma mais fácil, intuítiva e poderosa.
  * 
  * A classe Task representa uma tarefa, uma tarefa nada mais é um código que deve ser executado por uma thread
  */
