@@ -12,6 +12,16 @@ using System.Threading.Tasks;
  * - O Async e Await trabalham em conjunto
  * Async = Define que um método poderá ser executado de forma assícrona
  * Await = Bloqueia a thread até que a tarefa seja terminada
+ * 
+ * - Detalhes do Wait = Só pode ser usado em métodos definidos com async. 
+ * O Await deve operar apenas com os tipos que executam ou retornam um tipo Task ou Task<T>
+ * Um método async pode ter vários métodos com await, cada tarefa será executada só depois da outra terminar
+ * 
+ * 
+ * - Detalhes do Async = Métodos com async devem ter pelo menos uma chamada await, se não tiver, então o método 
+ * será síncrono, o compilador irá te avisar, mas não da erro.
+ * Métodos async só podem ter 3 tipos de retorno Task, Task<T> ou Void, o normal é usar Task ou Task<T> o void é mais
+ * usado para eventos como de click ou teclado no WPF
  */
 
 namespace Estudando.Threads.AsyncWait
@@ -49,7 +59,7 @@ namespace Estudando.Threads.AsyncWait
          * essa task no lugar da thread anterior que saiu, e essa thread nova fica bloqueada nesse ponto do await
          * aguardando a tarefa terminar. Quando a tarefa terminar ela continua executando o que tinha depois do await
          * mas repare que agora quem está executando essa Task não é mais aquela thread principal e sim outra, com
-         * isso usando asyn e await eu consigo ter um comportamente assíncrono sem me preocupar com os detalhes do
+         * isso usando async e await eu consigo ter um comportamente assíncrono sem me preocupar com os detalhes do
          * assíncronismo pois a CLR é quem cuida de tudo.
          */ 
         async Task ProcessAsync()
