@@ -29,7 +29,11 @@ using System.Threading.Tasks;
  * trazendo algumas vantagens. Os delegates assíncronos já não são mais tão usados pois depois que surgiu a classe Task
  * você consegue fazer a mesma coisa só que de uma forma mais fácil, intuítiva e poderosa.
  * 
- * A classe Task representa uma tarefa, uma tarefa nada mais é um código que deve ser executado por uma thread
+ * A classe Task representa uma tarefa, uma tarefa nada mais é um código que deve ser executado por uma thread.
+ * E o conceito de Tarefa é algo que é executado em uma thread a parte. A grande vantagem de você utulizar Task é que
+ * a Task esconde toda a complexidade de você trabalhar com threads, você apenas d eum obj Task para executar um
+ * determinado código e você não precisa se preocupar com a ocupação das threads necessárias, o C# obtem essas threads
+ * a partir do pool de threads da CLR
  */
 
 namespace Estudando.Threads.ClasseTask

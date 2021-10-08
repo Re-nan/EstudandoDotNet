@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28729.10
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste", "Teste\Teste.csproj", "{EBF3FBC6-E0D8-45F2-9A49-49EF363DECE7}"
 EndProject
@@ -134,6 +134,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.Threads.ClasseTask", "Estudando.Threads.ClasseTask\Estudando.Threads.ClasseTask.csproj", "{DD40643B-50D3-4231-8796-5076379D7320}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.Threads.AsyncWait", "Estudando.Threads.AsyncWait\Estudando.Threads.AsyncWait.csproj", "{7E9F2C6D-AAD5-4956-AB4C-060F4BE675EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudando.Threads.ClasseTask2", "Estudando.Threads.ClasseTask2\Estudando.Threads.ClasseTask2.csproj", "{8DC90989-AC76-4C71-B67C-7F1454B7B45A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -405,6 +407,10 @@ Global
 		{7E9F2C6D-AAD5-4956-AB4C-060F4BE675EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E9F2C6D-AAD5-4956-AB4C-060F4BE675EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E9F2C6D-AAD5-4956-AB4C-060F4BE675EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC90989-AC76-4C71-B67C-7F1454B7B45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC90989-AC76-4C71-B67C-7F1454B7B45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC90989-AC76-4C71-B67C-7F1454B7B45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC90989-AC76-4C71-B67C-7F1454B7B45A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
